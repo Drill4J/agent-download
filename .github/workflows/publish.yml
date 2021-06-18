@@ -22,3 +22,4 @@ jobs:
         with:
           push: true
           tags: drill4j/agent-download:latest
+
