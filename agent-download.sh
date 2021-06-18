@@ -23,4 +23,3 @@ unzip -o autoTestAgent-linuxX64-"$AUTOTEST_AGENT_VERSION".zip
 mv linuxX64-"$AUTOTEST_AGENT_VERSION" autotest-agent
 rm autoTestAgent-linuxX64-"$AUTOTEST_AGENT_VERSION".zip
 
-while true; do sleep 12 ; echo "foreground"; done
