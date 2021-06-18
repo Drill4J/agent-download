@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir /data-download
 RUN mkdir /data
+COPY check-file-exist.sh /
+RUN chmod +x /check-file-exist.sh
 COPY agent-download.sh /
 RUN chmod +x /agent-download.sh
 RUN /agent-download.sh
